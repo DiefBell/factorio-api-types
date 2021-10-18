@@ -11,7 +11,7 @@
 ## Installation
 - Install the package: `yarn add --dev factorio-api-types lua-types typescript-to-lua`
 - Add the types to your `tsconfig.json` file:
-```json
+```jsonc
 "compilerOptions": {
 	// .....
 	"types": [
