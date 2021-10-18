@@ -1,0 +1,6 @@
+{
+	"watch": [ "api" ],
+	"ext": "d.ts",
+	"ignore": [ "scripts", "node_modules" ],
+	"exec": "yarn run entrypoints"
+}

@@ -1,0 +1,1 @@
+declare type TileProperties = Record<string, double[]>;

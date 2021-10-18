@@ -1,0 +1,32 @@
+{
+	"name": "factorio-api-types",
+	"version": "1.0.0",
+	"description": "Factorio API type declarations",
+	"main": "dist/",
+	"author": "Merrick King",
+	"license": "MIT",
+	"files": [
+		"readme.md",
+		"license.txt",
+		"**/*.d.ts"
+	],
+	"devDependencies": {
+		"@types/glob": "^7.1.4",
+		"@types/node": "^16.11.1",
+		"glob": "^7.2.0",
+		"lua-types": "^2.11.0",
+		"nodemon": "^2.0.13",
+		"ts-node": "^10.3.0",
+		"tslint": "^6.1.3",
+		"typescript": "^4.4.4"
+	},
+	"peerDependencies": {
+		"lua-types": "^2.11.0"
+	},
+	"scripts": {
+		"lint": "tslint -p tsconfig.json -c tslint.json",
+		"entrypoints": "ts-node scripts/generateEntrypoints.ts",
+		"prepublish": "yarn run entrypoints",
+		"monitor": "nodemon ."
+	}
+}

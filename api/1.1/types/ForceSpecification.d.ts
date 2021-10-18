@@ -1,0 +1,1 @@
+declare type ForceSpecification = number | LuaForce;

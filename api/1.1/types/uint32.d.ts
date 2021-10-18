@@ -1,0 +1,1 @@
+declare type uint32 = number;

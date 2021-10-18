@@ -1,0 +1,1 @@
+declare type EventHandler = (event : Event) => void;

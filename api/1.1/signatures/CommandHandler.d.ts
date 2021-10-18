@@ -1,0 +1,1 @@
+declare type CommandHandler = (command : Command) => void;

@@ -1,0 +1,1 @@
+declare type uint8 = number;
